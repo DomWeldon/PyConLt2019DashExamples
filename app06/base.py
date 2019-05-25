@@ -5,7 +5,7 @@ import dash_html_components as html
 
 from .app import App
 
-print(dcc.__version__)
+
 def base_layout() -> html.Div:
     """Return a Dash Component which will serve as the top-level layout."""
     # register the layout
